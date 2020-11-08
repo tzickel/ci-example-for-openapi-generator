@@ -15,4 +15,5 @@ ENV GENERATOR_PATH=/openapi/openapi-generator-cli.jar
 
 WORKDIR /openapi/test
 ADD . .
-RUN ./test.sh
+RUN cd test2 && ./test.sh
+RUN cd test1 && ./test.sh
