@@ -20,6 +20,8 @@ int main(int argc, char* argv[])
         std::cerr << "*** BUG ***" << std::endl << std::flush;
         std::cerr << "The result should be {\"num1\":1,\"num2\":1} but is:" << std::endl << std::flush;
         std::cerr << result->toJson().serialize().c_str() << std::endl << std::flush;
+        // TODO turn this to assert
+        return 1;
     }
     catch(const ApiException& ex)
     {
