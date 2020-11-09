@@ -1,0 +1,22 @@
+swagger: "2.0"
+info:
+  version: "0.0.1"
+  title: "bug"
+host: "localhost:8080"
+basePath: "/v1alpha1"
+schemes:
+- "http"
+paths:
+  /test:
+    post:
+      parameters:
+      - in: "body"
+        name: "body"
+        schema:
+          type: "object"
+          properties:
+            name:
+              type: "string"
+      responses:
+        "204":
+          description: "successful operation"

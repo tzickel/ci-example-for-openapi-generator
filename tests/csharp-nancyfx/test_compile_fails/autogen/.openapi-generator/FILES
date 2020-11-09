@@ -1,0 +1,9 @@
+.gitignore
+Org.OpenAPITools.sln
+src/Org.OpenAPITools/Models/InlineObject.cs
+src/Org.OpenAPITools/Modules/DefaultModule.cs
+src/Org.OpenAPITools/Org.OpenAPITools.csproj
+src/Org.OpenAPITools/Org.OpenAPITools.nuspec
+src/Org.OpenAPITools/Utils/LocalDateConverter.cs
+src/Org.OpenAPITools/Utils/Parameters.cs
+src/Org.OpenAPITools/packages.config
